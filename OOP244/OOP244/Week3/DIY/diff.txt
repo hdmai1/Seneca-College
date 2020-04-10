@@ -1,0 +1,14 @@
+In line number 16 of your output:
+The output should be:
+Mark (mark/outof): 20/25
+                     ^
+But your output is: 
+Mark (mark/outof): 20-^H
+                     ^
+
+Unmatched character details:
+The character in column 22 is supposed to be:
+  [/] ASCII code(47)
+but you printed
+  [-] ASCII code(45)
+

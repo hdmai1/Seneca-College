@@ -1,0 +1,14 @@
+In line number 109 of your output:
+The output should be:
+[0m[38;5;15mCopy constructor and assignment test
+^
+But your output is: 
+==117028== Conditional jump or move depends on uninitialised value(s)
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [Escape] ASCII code(27)
+but you printed
+  [=] ASCII code(61)
+

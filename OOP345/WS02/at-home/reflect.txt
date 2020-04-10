@@ -1,0 +1,13 @@
+Hi Prof,
+
+I'm Huu Duc Mai, through out the workshop 2, I have learned how move and copy semantics work.
+
+The reason for the significant time difference between copy and move operations is:
+
+*With copy, you have to create the new instance and then assign values from old instance to new ones so it will take more time to get this done.
+
+*With move operation, you just need to move data from one instance to another, so it will take less time.
+
+Thank you,
+
+Huu Duc Mai.

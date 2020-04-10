@@ -1,0 +1,14 @@
+In line number 10 of your output:
+The output should be:
+m1: Empty mark: [Empty Mark object!]
+                                  ^
+But your output is: 
+m1: Empty mark: [Empty Mark object]
+                                  ^
+
+Unmatched character details:
+The character in column 35 is supposed to be:
+  [!] ASCII code(33)
+but you printed
+  []] ASCII code(93)
+

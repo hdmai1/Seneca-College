@@ -1,0 +1,31 @@
+<div class="row">
+    <div class="col-md-12">
+        <h2>Stores</h2>
+        <hr/>
+
+        {{#if stores}}
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Store ID</th>
+                        <th>Store Name</th>
+                        <th>Store Phone</th>
+                        <th>Store Address</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each stores}}
+                    <tr>
+                        <td>{{this.id}}</td>
+                        <td><a href="/cars?make={{this.retailer}}">{{this.retailer}}</a></td>
+                        <td><a href="tel:{{this.phone}}">{{this.phone}}</a></td>
+                        <td>{{this.address}} {{this.city}}</td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+        </div>
+        {{/if}}
+    </div>
+</div>

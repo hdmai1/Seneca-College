@@ -1,0 +1,32 @@
+Script started on Mon 18 Nov 2019 07:34:25 PM EST
+==70740== Memcheck, a memory error detector
+==70740== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==70740== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==70740== Command: a.out
+==70740== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+The following two lines should match:
+1-This is a test message.
+2-This is a test message.
+Enter "Green Eggs and Ham": Green Eggs and Ham
+               You entered: Green Eggs and Ham
+The following two lines should match,
+if they don't, it means your helper operator oveloads are not implemented correctly.
+1-Green Eggs and Ham
+2-Green Eggs and Ham.
+
+[38;5;9m------------------------
+End Testing the Program![0m
+==70740== 
+==70740== HEAP SUMMARY:
+==70740==     in use at exit: 0 bytes in 0 blocks
+==70740==   total heap usage: 5 allocs, 5 frees, 90,224 bytes allocated
+==70740== 
+==70740== All heap blocks were freed -- no leaks are possible
+==70740== 
+==70740== For counts of detected and suppressed errors, rerun with: -v
+==70740== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Mon 18 Nov 2019 07:34:35 PM EST

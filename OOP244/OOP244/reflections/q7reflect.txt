@@ -1,0 +1,25 @@
+Name: Huu Duc Mai (Tom).
+Student Number: 121367189
+Quiz 7 V1 reflection.
+
+1- convert the above search function to a template so it can work for any type of array.
+
+What was wrong: I have set numberOfSamples and foundIndex as T, which are incorrect, because we are using template for all of the functions, numberofSamples and foundindex just work as a counter, there is nothing related to the template.
+
+=> 
+template <typename T>
+bool search(T valToSearchFor, T samples[], int numberOfSamples, unsigned int& foundIndex) {
+   unsigned int i;
+   bool found = false;
+   for (i = 0; !found && i < numberOfSamples; i++) {
+      if (samples[i] == valToSearchFor) {
+         foundIndex = i;
+         found = true;
+      }
+   }
+   return found;
+}
+
+2- Name all the capabilities your Template type should have so your function template can work with that type.
+What was wrong: I have listed assignment operator, operator++ and operator< just because I have set numberOfSample and foundIndex as in template. So we just need ==operator when we compare samples[i] and valtoSearchFor (which can be any type), and a copy constructor.
+=> We need == operator and copy constructor so that it can work with that type.

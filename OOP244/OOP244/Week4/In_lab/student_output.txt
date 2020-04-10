@@ -1,0 +1,67 @@
+Script started on Tue 01 Oct 2019 10:49:07 PM EDT
+==129308== Memcheck, a memory error detector
+==129308== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==129308== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==129308== Command: ws
+==129308== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Testing Empty Flowers
+----------------------------------------------------------------
+1 - 1 - 1 - 1 - 1 - 1 - 1 - 1 - 1 - 1
+This is an empty flower...
+
+Testing Empty Strings
+----------------------------------------------------------------
+2 - 2 - 2 - 2 - 2 - 2 - 2 - 2 - 2 - 2
+This is an empty flower...
+This is an empty flower...
+
+Testing Non Empty Flowers
+----------------------------------------------------------------
+3 - 3 - 3 - 3 - 3 - 3 - 3 - 3 - 3 - 3
+Flower: Red Rose Price: 2.25
+Flower: Blue Rose Price: 9.99
+Flower: Yellow Sunflower Price: 1.25
+
+Testing Setting an Empty Flower
+----------------------------------------------------------------
+4 - 4 - 4 - 4 - 4 - 4 - 4 - 4 - 4 - 4
+This is an empty flower...
+Beginning the birth of a new flower...
+Enter the flower's name... : This is not a real flower name
+A flower's name is limited to 25 characters... Try again: 
+A flower's name is limited to 25 characters... Try again: Iris
+Enter the flower's colour... : This is not a real colour
+A flower's colour is limited to 15 characters... Try again: 
+A flower's colour is limited to 15 characters... Try again: Pink
+Enter the flower's price... : -123
+A flower's price is a non-negative number... Try again: 1.2
+The flower's current details...
+Flower: Pink Iris Price: 1.2
+
+Testing Destructor
+----------------------------------------------------------------
+5 - 5 - 5 - 5 - 5 - 5 - 5 - 5 - 5 - 5
+Pink Iris has departed...
+Yellow Sunflower has departed...
+Blue Rose has departed...
+Red Rose has departed...
+An unknown flower has departed...
+An unknown flower has departed...
+An unknown flower has departed...
+
+[38;5;9m------------------------
+End Testing the Program![0m
+==129308== 
+==129308== HEAP SUMMARY:
+==129308==     in use at exit: 0 bytes in 0 blocks
+==129308==   total heap usage: 10 allocs, 10 frees, 160 bytes allocated
+==129308== 
+==129308== All heap blocks were freed -- no leaks are possible
+==129308== 
+==129308== For counts of detected and suppressed errors, rerun with: -v
+==129308== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Tue 01 Oct 2019 10:49:21 PM EDT

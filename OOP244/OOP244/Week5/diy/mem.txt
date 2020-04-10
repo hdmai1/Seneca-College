@@ -1,0 +1,296 @@
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Empty Squad, default constr
+----------------------------------------------------------------
+1 - 1 - 1 - 1 - 1 - 1 - 1 - 1 - 1 - 1
+Squad **No Name** has no members
+
+Add Members to Empty Squad
+----------------------------------------------------------------
+2 - 2 - 2 - 2 - 2 - 2 - 2 - 2 - 2 - 2
+***Squad Summary***
+Name: No Name
+Roster Count: 1
+Roster:
+***Robot Summary***
+Nickname: Joe
+Arm Power: 200
+Durability: 700
+Legs: 300
+
+Substract members from an Empty Squad
+----------------------------------------------------------------
+3 - 3 - 3 - 3 - 3 - 3 - 3 - 3 - 3 - 3
+This squad **Gold** has no members or is uninitialized. Can't do --.
+
+Subtract members from a Non-Empty Squad
+----------------------------------------------------------------
+4 - 4 - 4 - 4 - 4 - 4 - 4 - 4 - 4 - 4
+Before subtraction
+----------------------------------------------------------------
+***Squad Summary***
+Name: No Name
+Roster Count: 1
+Roster:
+***Robot Summary***
+Nickname: Joe
+Arm Power: 200
+Durability: 700
+Legs: 300
+
+After subtraction
+----------------------------------------------------------------
+Squad **No Name** has no members
+
+Fill up Squads
+----------------------------------------------------------------
+5 - 5 - 5 - 5 - 5 - 5 - 5 - 5 - 5 - 5
+***Squad Summary***
+Name: No Name
+Roster Count: 3
+Roster:
+***Robot Summary***
+Nickname: Joe
+Arm Power: 200
+Durability: 700
+Legs: 300
+***Robot Summary***
+Nickname: Ippo
+Arm Power: 300
+Durability: 800
+Legs: 200
+***Robot Summary***
+Nickname: Miyata
+Arm Power: 200
+Durability: 500
+Legs: 400
+----------------------------------------------------------------
+***Squad Summary***
+Name: Gold
+Roster Count: 3
+Roster:
+***Robot Summary***
+Nickname: Takamura
+Arm Power: 400
+Durability: 1000
+Legs: 400
+***Robot Summary***
+Nickname: Ricardo
+Arm Power: 400
+Durability: 800
+Legs: 400
+***Robot Summary***
+Nickname: Robo
+Arm Power: 1
+Durability: 1
+Legs: 1
+
+Box one member from each Squad
+----------------------------------------------------------------
+6 - 6 - 6 - 6 - 6 - 6 - 6 - 6 - 6 - 6
+Attempting to begin a Robot boxing match
+Both participants are operational... beginning the bout
+The bout has concluded... the winner is: 
+***Robot Summary***
+Nickname: Joe
+Arm Power: 200
+Durability: 700
+Legs: 300
+Attempting to begin a Robot boxing match
+Both participants are operational... beginning the bout
+The bout has concluded... the winner is: 
+***Robot Summary***
+Nickname: Takamura
+Arm Power: 400
+Durability: 700
+Legs: 400
+Attempting to begin a Robot boxing match
+Both participants are operational... beginning the bout
+The bout has concluded... the winner is: 
+***Robot Summary***
+Nickname: Ricardo
+Arm Power: 400
+Durability: 600
+Legs: 400
+
+Display the condition of each Squad after boxing
+----------------------------------------------------------------
+7 - 7 - 7 - 7 - 7 - 7 - 7 - 7 - 7 - 7
+***Squad Summary***
+Name: No Name
+Roster Count: 3
+Roster:
+***Robot Summary***
+Nickname: Joe
+Arm Power: 200
+Durability: 700
+Legs: 300
+This Robot isn't operational
+This Robot isn't operational
+***Squad Summary***
+Name: Gold
+Roster Count: 3
+Roster:
+***Robot Summary***
+Nickname: Takamura
+Arm Power: 400
+Durability: 700
+Legs: 400
+***Robot Summary***
+Nickname: Ricardo
+Arm Power: 400
+Durability: 600
+Legs: 400
+This Robot isn't operational
+
+[38;5;9m------------------------
+End Testing the Program![0m
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Empty Squad, default constr
+----------------------------------------------------------------
+1 - 1 - 1 - 1 - 1 - 1 - 1 - 1 - 1 - 1
+Squad **No Name** has no members
+
+Add Members to Empty Squad
+----------------------------------------------------------------
+2 - 2 - 2 - 2 - 2 - 2 - 2 - 2 - 2 - 2
+***Squad Summary***
+Name: No Name
+Roster Count: 1
+Roster:
+***Robot Summary***
+Nickname: Joe
+Arm Power: 200
+Durability: 700
+Legs: 300
+
+Substract members from an Empty Squad
+----------------------------------------------------------------
+3 - 3 - 3 - 3 - 3 - 3 - 3 - 3 - 3 - 3
+This squad **Gold** has no members or is uninitialized. Can't do --.
+
+Subtract members from a Non-Empty Squad
+----------------------------------------------------------------
+4 - 4 - 4 - 4 - 4 - 4 - 4 - 4 - 4 - 4
+Before subtraction
+----------------------------------------------------------------
+***Squad Summary***
+Name: No Name
+Roster Count: 1
+Roster:
+***Robot Summary***
+Nickname: Joe
+Arm Power: 200
+Durability: 700
+Legs: 300
+
+After subtraction
+----------------------------------------------------------------
+Squad **No Name** has no members
+
+Fill up Squads
+----------------------------------------------------------------
+5 - 5 - 5 - 5 - 5 - 5 - 5 - 5 - 5 - 5
+***Squad Summary***
+Name: No Name
+Roster Count: 3
+Roster:
+***Robot Summary***
+Nickname: Joe
+Arm Power: 200
+Durability: 700
+Legs: 300
+***Robot Summary***
+Nickname: Ippo
+Arm Power: 300
+Durability: 800
+Legs: 200
+***Robot Summary***
+Nickname: Miyata
+Arm Power: 200
+Durability: 500
+Legs: 400
+----------------------------------------------------------------
+***Squad Summary***
+Name: Gold
+Roster Count: 3
+Roster:
+***Robot Summary***
+Nickname: Takamura
+Arm Power: 400
+Durability: 1000
+Legs: 400
+***Robot Summary***
+Nickname: Ricardo
+Arm Power: 400
+Durability: 800
+Legs: 400
+***Robot Summary***
+Nickname: Robo
+Arm Power: 1
+Durability: 1
+Legs: 1
+
+Box one member from each Squad
+----------------------------------------------------------------
+6 - 6 - 6 - 6 - 6 - 6 - 6 - 6 - 6 - 6
+Attempting to begin a Robot boxing match
+Both participants are operational... beginning the bout
+The bout has concluded... the winner is: 
+***Robot Summary***
+Nickname: Joe
+Arm Power: 200
+Durability: 700
+Legs: 300
+Attempting to begin a Robot boxing match
+Both participants are operational... beginning the bout
+The bout has concluded... the winner is: 
+***Robot Summary***
+Nickname: Takamura
+Arm Power: 400
+Durability: 700
+Legs: 400
+Attempting to begin a Robot boxing match
+Both participants are operational... beginning the bout
+The bout has concluded... the winner is: 
+***Robot Summary***
+Nickname: Ricardo
+Arm Power: 400
+Durability: 600
+Legs: 400
+
+Display the condition of each Squad after boxing
+----------------------------------------------------------------
+7 - 7 - 7 - 7 - 7 - 7 - 7 - 7 - 7 - 7
+***Squad Summary***
+Name: No Name
+Roster Count: 3
+Roster:
+***Robot Summary***
+Nickname: Joe
+Arm Power: 200
+Durability: 700
+Legs: 300
+This Robot isn't operational
+This Robot isn't operational
+***Squad Summary***
+Name: Gold
+Roster Count: 3
+Roster:
+***Robot Summary***
+Nickname: Takamura
+Arm Power: 400
+Durability: 700
+Legs: 400
+***Robot Summary***
+Nickname: Ricardo
+Arm Power: 400
+Durability: 600
+Legs: 400
+This Robot isn't operational
+
+[38;5;9m------------------------
+End Testing the Program![0m

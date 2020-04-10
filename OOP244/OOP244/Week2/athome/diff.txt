@@ -1,0 +1,14 @@
+In line number 21 of your output:
+The output should be:
+Enter number of sections: 3
+                           ^
+But your output is: 
+Enter number of sections: 30
+                           ^
+
+Unmatched character details:
+The character in column 28 is supposed to be:
+  [Newline (\n) or Carriage Retrun (\r)] ASCII code(13)
+but you printed
+  [0] ASCII code(48)
+

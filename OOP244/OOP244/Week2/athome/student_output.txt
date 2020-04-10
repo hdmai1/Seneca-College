@@ -1,0 +1,46 @@
+Script started on Thu 19 Sep 2019 05:53:01 PM EDT
+==172583== Memcheck, a memory error detector
+==172583== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==172583== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==172583== Command: ws
+==172583== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Please enter the name of the school:
+> Prg School
+Please enter the number of subjects offered by Prg School: 2
+1) ------------------------------
+Enter subject name: OO Programming 1
+Enter number of sections: 2
+Enter the number of students in each one of the 2 sections:
+1: 20
+2: 25
+2) ------------------------------
+Enter subject name: OO Programming 2
+Enter number of sections: 3
+Enter the number of students in each one of the 3 sections:
+1: 30
+2: 35
+3: 25
+Prg School
+Subject Enrollments
+20,25
+OO Programming 1: 45
+30,35,25
+OO Programming 2: 90
+Total enrollment: 135
+
+[38;5;9m------------------------
+End Testing the Program![0m
+==172583== 
+==172583== HEAP SUMMARY:
+==172583==     in use at exit: 0 bytes in 0 blocks
+==172583==   total heap usage: 8 allocs, 8 frees, 121 bytes allocated
+==172583== 
+==172583== All heap blocks were freed -- no leaks are possible
+==172583== 
+==172583== For counts of detected and suppressed errors, rerun with: -v
+==172583== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Thu 19 Sep 2019 05:53:18 PM EDT

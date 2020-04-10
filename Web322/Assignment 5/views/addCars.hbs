@@ -1,0 +1,55 @@
+<div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Add Car</h2>
+                <br>
+                <form method="post" action="/car/add">
+                    <fieldset>
+                        <legend>Car Information</legend>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="Car Make">Car Make:</label>
+                                    <input class="form-control" name="make" type="text">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="Car Model">Car Model:</label>
+                                    <input class="form-control" name="model" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="Car Year">Car Year:</label>
+                                    <input class="form-control" name="year" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Vin Information</legend>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label for="Car Vin">Vin :</label>
+                                    <input class="form-control" name="vin"  type="text" required>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <hr>
+
+                    <input type="submit" class="btn btn-primary pull-right" value="Add Car"><br><br><br>
+
+                </form>
+            </div>
+        </div>
+</div>
+
+   

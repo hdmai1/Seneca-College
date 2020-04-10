@@ -1,0 +1,14 @@
+In line number 41 of your output:
+The output should be:
+The flower's current details...
+^
+But your output is: 
+Flower: Pink Iris Price: 1.2
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [T] ASCII code(84)
+but you printed
+  [F] ASCII code(70)
+

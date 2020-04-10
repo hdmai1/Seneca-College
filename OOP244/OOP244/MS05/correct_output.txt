@@ -1,0 +1,232 @@
+Script started on Sun 01 Dec 2019 08:37:45 PM EST
+==111876== Memcheck, a memory error detector
+==111876== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==111876== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==111876== Command: a.out
+==111876== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+My Little Library:
+ 1- Add Publication
+ 2- Check Out
+ 3- Check In
+ 4- Search
+ 0- Exit
+> 4
+Search for name: Can
+Searching....
+
+Row  Title                                    ISBN or V(I)  Shlf Lent to Ret Date
+--------------------------------------------- -------------  --- -----   ----------
+  1- Canadian Living                                 14(01)  155
+  2- Canadian Living                                 14(10)  155
+  3- Canadian Living                                 14(16)  155
+  4- Literary Review of Canada                       05(04)  132
+  5- Literary Review of Canada                       05(10)  132
+  6- Literary Review of Canada                       05(12)  132
+  7- Literary Review of Canada                       05(16)  132
+  8- Literary Review of Canada                       05(18)  132
+  9- Canadian Geographic                             03(02)  122
+  0- Exit
+Select: 0
+
+My Little Library:
+ 1- Add Publication
+ 2- Check Out
+ 3- Check In
+ 4- Search
+ 0- Exit
+> 4
+Search for name: Th
+Searching....
+
+Row  Title                                    ISBN or V(I)  Shlf Lent to Ret Date
+--------------------------------------------- -------------  --- -----   ----------
+  1- The Hockey News                                 10(01)  111
+  2- The Hockey News                                 10(04)  111
+  3- The Hockey News                                 10(07)  111
+  4- The Hockey News                                 10(10)  111
+  5- The Fun Family                           9781603093446  244
+  6- That Salty Air                           9781603090056  244
+  0- Exit
+Select: 0
+
+My Little Library:
+ 1- Add Publication
+ 2- Check Out
+ 3- Check In
+ 4- Search
+ 0- Exit
+> 2
+Checking Out:
+Search for name: Fun
+Searching....
+
+Row  Title                                    ISBN or V(I)  Shlf Lent to Ret Date
+--------------------------------------------- -------------  --- -----   ----------
+  1- The Fun Family                           9781603093446  244
+  0- Exit
+Select: 1
+
+Checking out:
+The Fun Family                           9781603093446  244
+Enter Member id: 111111
+Invalid Member ID, Enter again: 1111
+Invalid Member ID, Enter again: 11111
+Enter return date: 2019/10/10
+Please enter a future date.
+Enter return date: 2019/12/12
+
+My Little Library:
+ 1- Add Publication
+ 2- Check Out
+ 3- Check In
+ 4- Search
+ 0- Exit
+> 4
+Search for name: Th
+Searching....
+
+Row  Title                                    ISBN or V(I)  Shlf Lent to Ret Date
+--------------------------------------------- -------------  --- -----   ----------
+  1- The Hockey News                                 10(01)  111
+  2- The Hockey News                                 10(04)  111
+  3- The Hockey News                                 10(07)  111
+  4- The Hockey News                                 10(10)  111
+  5- The Fun Family                           9781603093446  244 11111   2019/12/12
+  6- That Salty Air                           9781603090056  244
+  0- Exit
+Select: 0
+
+My Little Library:
+ 1- Add Publication
+ 2- Check Out
+ 3- Check In
+ 4- Search
+ 0- Exit
+> 3
+Checking In:
+Search for name: Fun
+Searching....
+
+Row  Title                                    ISBN or V(I)  Shlf Lent to Ret Date
+--------------------------------------------- -------------  --- -----   ----------
+  1- The Fun Family                           9781603093446  244 11111   2019/12/12
+  0- Exit
+Select: 1
+
+Checking in:
+The Fun Family                           9781603093446  244 11111   2019/12/12
+The Fun Family                           9781603093446  244 checked in!
+
+My Little Library:
+ 1- Add Publication
+ 2- Check Out
+ 3- Check In
+ 4- Search
+ 0- Exit
+> 1
+What type of Publication?:
+ 1- Magazine
+ 2- Book
+ 0- Exit
+> 1
+Magazine Name: The Guardian
+Volume: 10
+Issue: 6
+Shelf Number: 123
+Publication Added.
+
+My Little Library:
+ 1- Add Publication
+ 2- Check Out
+ 3- Check In
+ 4- Search
+ 0- Exit
+> 1
+What type of Publication?:
+ 1- Magazine
+ 2- Book
+ 0- Exit
+> 2
+Book Name: The Surrogates
+ISBN: 9781891883087
+Shelf Number: 200
+Publication Added.
+
+My Little Library:
+ 1- Add Publication
+ 2- Check Out
+ 3- Check In
+ 4- Search
+ 0- Exit
+> 4
+Search for name: The
+Searching....
+
+Row  Title                                    ISBN or V(I)  Shlf Lent to Ret Date
+--------------------------------------------- -------------  --- -----   ----------
+  1- The Hockey News                                 10(01)  111
+  2- The Hockey News                                 10(04)  111
+  3- The Hockey News                                 10(07)  111
+  4- The Hockey News                                 10(10)  111
+  5- The Fun Family                           9781603093446  244
+  6- The Guardian                                    10(06)  123
+  7- The Surrogates                           9781891883087  200
+  0- Exit
+Select: 0
+
+My Little Library:
+ 1- Add Publication
+ 2- Check Out
+ 3- Check In
+ 4- Search
+ 0- Exit
+> 1
+What type of Publication?:
+ 1- Magazine
+ 2- Book
+ 0- Exit
+> 2
+Book Name: aaasssdddfffaaasssdddfffaaasssdddfffaaasss
+Book name too long, Enter again: abc
+ISBN: 12345678909
+Invalid ISBN, Enter again: 12345678909876
+Invalid ISBN, Enter again: 1234567890987
+Shelf Number: 11
+Invalid Shelf Number, Enter again: 1111
+Invalid Shelf Number, Enter again: 111
+Publication Added.
+
+My Little Library:
+ 1- Add Publication
+ 2- Check Out
+ 3- Check In
+ 4- Search
+ 0- Exit
+> 0
+Do you really want to exit the program?:
+ 1- No, Cancel!
+ 0- Exit
+> 0
+Save and overwrite the old data?:
+ 1- Yes, overwrite the data file with the current data
+ 0- Exit
+> 1
+33 Item(s) saved.
+
+
+[38;5;9m------------------------
+End Testing the Program![0m
+==111876== 
+==111876== HEAP SUMMARY:
+==111876==     in use at exit: 0 bytes in 0 blocks
+==111876==   total heap usage: 120 allocs, 120 frees, 104,242 bytes allocated
+==111876== 
+==111876== All heap blocks were freed -- no leaks are possible
+==111876== 
+==111876== For counts of detected and suppressed errors, rerun with: -v
+==111876== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Sun 01 Dec 2019 08:48:06 PM EST

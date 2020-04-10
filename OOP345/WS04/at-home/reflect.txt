@@ -1,0 +1,25 @@
+1. The difference between the implementations of a composition and an aggregation.
+=> Composition means that an (mother) object owns many objects (children) inside of it and it has responsible for those objects lifetime. If the mother object dies, those (children) objects inside of it will die as well.
+For examples: I have 2 classes: Cars, Audi and BMW, the relationship can be defined.
+
+class Car {
+	Audi newGen1 = new Audi();
+	BMW newGen2 = new BMW();
+}
+when Car dies, Audi and BMW will die too.
+
+* Aggregation means that I have an object which I've borrowed from someone else, if my main object dies, those won't be affected.
+For examples: I have 2 classes: John, Tom:
+
+class John {
+	Tom hairStyle;
+	John(Tom hairStyle) {
+		this.hairStyle = Tom.hairStyle;
+	}
+}	
+
+=> even if John (object) dies, Tom object won't be affected.
+
+2.the difference between the implementations of move and copy functions in a composition and an aggregation.
+
+=> I don't know the answer.

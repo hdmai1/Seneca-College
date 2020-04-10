@@ -1,0 +1,14 @@
+In line number 76 of your output:
+The output should be:
+Returning BMW 320, plate number: ABC123
+^
+But your output is: 
+Parking is closed now! Goodbye...
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [R] ASCII code(82)
+but you printed
+  [P] ASCII code(80)
+

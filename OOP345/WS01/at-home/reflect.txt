@@ -1,0 +1,30 @@
+Hi Prof,
+
+I'm Huu Duc Mai, OOP345-NEE section.
+
+Through out workshop 1, I have learned the following things:
+
+1. Keyword "extern" which is very useful, it can tell the compiler to look for the variable in another module (which is not in the current scope).
+
+2. Keyword "static" declares a variable which will have a scope till the class lifetime. In this workshop, I have used the keyword "static" to keep track the status of events coming from the text files.
+
+3. In at-home part, I have upgraded my constructor, setDescription and display functions. Also, 3 additional functions have been added, copy constructor, assignment operator, and destructor.
+
+Specificially, I have changed des variable (which hold the description) from char to char *. 
+
+* In the constructor, I have assigned des to null pointer. 
+
+* In setDescription function, I have checked if the incoming argument is a null pointer, if it's not, dynamically allocate memory for des to the length of the argument (include the null terminator at the end), else, deallocate the old memory of des and then dynamically allocate it and assign it to "[ No Event ]" (for the display part)
+
+* In display function, first I print out the counter I have put at the beginning of the module (a), and then simply check if the description is "[ No Event ]", if it is not, print the time and then the description, else, print the description only (which is "[ No Event ]").
+
+* I have put copy constructor and assignment operator because of these lines in w1_home.cpp:
+
+sdds::Event copy(currentEvent);
+archive[idxArchive++] = copy; 
+
+*Destructor to prevent leaking memory.
+
+Thank you,
+
+Huu Duc Mai.

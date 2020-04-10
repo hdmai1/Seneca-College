@@ -1,0 +1,46 @@
+Name: Huu Duc Mai (Tom).
+Student Number: 121367189
+Quiz 2 - 3 - 4 V2 reflection.
+
+Q11: Write a default constructor (no-argument) for OneDynamicInteger to initialize oneIntPtr to nullptr
+
+What was incorrect: I was wrong at initialization part, which is oneIntPtr(nullptr)();
+I didn't know what I was writing there but obviously the brackets should be curly brackets. and the no-argument brackets should be right after the constructor, not in the end of the line like I did. I have provided my final answer below.
+
+=> OneDynamicInteger() { oneIntPtr = nullptr };
+
+Q12: Write a copy constructor for OneDynamicInteger class:
+
+What was incorrect: What I was doing is initialized oneIntPtr to nullptr, not copy constructor, I have provided my final answer below.
+=> OneDynamicInteger& (const OneDynamicInteger& RO) {
+	oneIntPtr = new int;
+	oneIntPtr = RO.oneIntPtr;
+}
+
+Q13: Write a destructor for OneDynamicInteger class:
+What was wrong: I have deleted an array, which I should not have. I have provided my final answer below.
+=> 	~OneDynamicInteger() {
+		delete oneIntPtr;
+	}
+
+Q21: Write the prototype for a += operator that adds the value of an OneDynamicInteger object to another object returning the reference of the left operand object.
+
+What was wrong: I have passed 2 objects to the function, and I didn't included const keyword, which is critical because the object will remain unchanged. Here is my final answer:
+
+=> OneDynamicInteger& operator+=(const OneDynamicInteger& Obj1);
+
+Q22: Write the prototype for a - (minus) operator that reduces the value of the left operand OneDynamicInteger object by the value of the right operand OneDynamicInteger object and returns the outcome of the operation as an OneDynamicInteger object.
+What was incorrect: I have returned the reference of the left operand, and I didn't put const keywords into 2 coming arguments. Because you asked me to return the outcome as an object, not the reference.
+=> OneDynamicInteger operator-(const OneDynamicInteger& Obj1, const OneDynamicInteger& Obj2);
+
+Q31: Write the prototype of the operator<< overload to print the OneDynamicInteger object using cout.
+what was wrong: I didn't return the reference of the current object (I put void), I have included the answer below.
+=> std::ostream& operator<<(std::ostream& os)const;
+
+Q32: overload the operator>> read an OneDynamicInteger object from the console using cin.
+what was wrong: I have passed istream& cin as the 2nd argumend, which is incorrect, because the prototype has listed cin as the default argument so I just simply need to pass is as my 2nd argument. I have included the answer below.
+
+=> OneDynamicInteger& OneDynamicInteger::operator>>(OneDynamicInteger& Obj1) {
+	read(Obj1, is);
+	return *this;
+   }

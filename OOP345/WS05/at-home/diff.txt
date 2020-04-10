@@ -1,0 +1,14 @@
+In line number 50 of your output:
+The output should be:
+Movie "Terminator: Dork Fate" added to collection "Action Movies" (5 items).
+       ^
+But your output is: 
+Movie " Terminator: Dork Fate   " added to collection "Action Movies" (5 items).
+       ^
+
+Unmatched character details:
+The character in column 8 is supposed to be:
+  [T] ASCII code(84)
+but you printed
+  [Space] ASCII code(32)
+

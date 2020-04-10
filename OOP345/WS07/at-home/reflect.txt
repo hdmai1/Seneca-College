@@ -1,0 +1,22 @@
+Hi Prof,
+
+A. Through out Workshop 7, I have used these STL functions:
+	1. std::for_each
+	=> to loop through every element of the vector.
+	2. std::accumulate
+	=> to accumulate the values in a specific range and then return the result.
+	3. std::sort
+	=> to sort the elements of the vector in an ascending order.
+	4. std::any_of
+	=> to return true if there is at least 1 element of the vector is the same with the parameter.
+	5. std::count_if
+	=> to count the number of occurences of artists that satisfied the input condition.
+	6. std::copy_if
+	=>  copy the elements from 1 vector to another vector as long as those elements are satisfied the condition.
+B. Advantages: Save time, avoid some possible errors (typo, hidden logics...)
+
+C. In my opinion, I have included in the function that if the parameter contains anything different than "title", "album", or "length", the program will display an error and leave the collection unsorted.
+
+Thank you,
+
+Huu Duc Mai. 

@@ -1,0 +1,2 @@
+
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_home_prof.cpp 2> e

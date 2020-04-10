@@ -1,0 +1,15 @@
+Name: Huu Duc Mai (Tom).
+Student Number: 121367189
+Quiz 6 V1 reflection.
+
+1 - Create a double dynamically then delete it.
+what was wrong: I hav declared abc as an double, not dynamically, below is my final answer.
+=> double* abc;
+   abc = new double;
+   delete abc;
+
+2 - Create a dynamic array of 3521 long integers then delete them.
+What was wrong: I have declared abc as an regular integer, not dynamically, so below is my final answer.
+=>  long int* abc;
+   abc = new long int[3521];
+   delete[] abc;

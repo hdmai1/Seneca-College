@@ -1,0 +1,14 @@
+In line number 35 of your output:
+The output should be:
+This Robot isn't operational
+^
+But your output is: 
+***Robot Summary***
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [T] ASCII code(84)
+but you printed
+  [*] ASCII code(42)
+

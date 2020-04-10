@@ -1,0 +1,32 @@
+<div class="row">
+    <div class="col-md-12">
+        <h2>Cars</h2>
+        <hr />
+        {{#if cars}}
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Car ID</th>
+                        <th>Car Make</th>
+                        <th>Car Model</th>
+                        <th>Car Year</th>
+                        <th>Car VIN</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each cars}}
+                    <tr>
+                        <td>{{this.id}}</td>
+                        <td><a href="/stores?retailer={{this.make}}">{{this.make}}</a></td>
+                        <td>{{this.model}}</td>
+                        <td><a href="/cars?year={{this.year}}">{{this.year}}</a></td>
+                        <td><a href="/people?vin={{this.vin}}">{{this.vin}}</a></td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+        </div>
+        {{/if}}
+    </div>
+</div>

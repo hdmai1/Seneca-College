@@ -1,0 +1,43 @@
+<div class="row">
+    <div class="col-md-12">
+        <h2>{{store.retailer}} - ID: {{store.id}}</h2>
+        <hr />
+        <form method="post" action="/store/update">
+            <input type="hidden" name="id" value="{{store.id}}">
+            <fieldset>
+                        <legend>Store Information</legend>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="Store Retailer">Store Retailer:</label>
+                                    <input class="form-control" name="retailer" type="text" value="{{store.retailer}}">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="Store Phone">Store Phone:</label>
+                                    <input class="form-control" name="phone" type="text" value="{{store.phone}}">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="Store Address">Store Address:</label>
+                                    <input class="form-control" name="address" type="text" value="{{store.address}}">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="Store City">Store City:</label>
+                                    <input class="form-control" name="city" type="text" value="{{store.city}}">
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </fieldset>
+            <hr />
+            <input type="submit" class="btn btn-primary pull-right" value="Update Store" /><br /><br /><br />
+        </form>
+    </div>
+</div>

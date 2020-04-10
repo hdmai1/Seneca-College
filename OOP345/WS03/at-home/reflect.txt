@@ -1,0 +1,20 @@
+Hi Prof,
+
+I'm Huu Duc Mai, through out the workshop 3, I have learned how useful template means to programming with C++. 
+
+Basically, template helps us creating a function which can be used for more than one type or class without repeating the code for each type.
+
+1. The reason for specializing the sum() member function is:
+- It tells the compiler exactly which specific funtion is going to be used when we call the function and pass string - string to the parameters. If the parameter is not string-string, the function will never be called.
+2. The reason for specializing the initial value for a summation.
+- Because it depends on the type of the value, if the incoming arguments are string-string, it needs to be a  string (empty string), same with integer (0). Otherwise, the program won't have a beginning point.
+
+3.The reason for defining the class variable outside the class definition.
+- First, each static variable must be defined only once. If you try to define them in the header, they will be defined in every module that includes that header, so it will crash the program because it is against the first rule of static members.
+- From Bjarne's webite http://www.stroustrup.com/#in-class :
+	A class is typically declared in a header file and a header file is typically included into many translation units. However, to avoid complicated linker rules, C++ requires that every object has a unique definition. 
+	That rule would be broken if C++ allowed in-class definition of entities that needed to be stored in memory as objects.
+
+Thank you,
+
+Huu Duc Mai.

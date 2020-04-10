@@ -1,0 +1,17 @@
+Hi Prof,
+
+I'm Huu Duc Mai.
+
+1. The difference between the implementations/utilizations of a functor and a lambda expression. When is appropriate to use each one?
+=> A functor implementation require extra complexity because we need to make many member variables, have to do advanced resource handling.
+Lambda cannot be recursive while operator functors can be and in a lambda, we have to write everything into a single function (which is inconvenient.)
+2. The constructor for SpellChecker generates an exception in certain conditions. How would you change your code to achieve the same result, but without exceptions (both on the constructor and on the client side)? Compare the two solutions.
+=> we can just simply use "if" statement and then print out the result, but the point is if we do so, the program will be redirected.
+3. The classes Movie and Book contain almost identical logic in loading data from the file. How would you redesign the classes in order not to duplicate that logic?
+=> I have put all of those helper functions out side of the class "Book" so that I can just re-use them again in class Movie just by calling them.
+4. The classes Movie and Book are instantiated from the main() function using a custom constructor, but they also contain a default constructor. Is the default constructor necessary? Could you remove it? Justify your answer.
+=> Default constructor is always defined by the compiler even when we didn't define it in the class. If it wasn't created automatically by the constructor, we wouldn't be able to create objects of a class for which no constructor was defined so in my opinion, default constructor is important.
+
+Thank you,
+
+Duc Mai.
